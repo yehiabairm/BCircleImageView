@@ -16,6 +16,7 @@
 		8ADF30EB238D431E0057F898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF30EA238D431E0057F898 /* Assets.xcassets */; };
 		8ADF30EE238D431E0057F898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF30ED238D431E0057F898 /* Preview Assets.xcassets */; };
 		8ADF30F1238D431E0057F898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF30EF238D431E0057F898 /* LaunchScreen.storyboard */; };
+		8ADF30F7238D44A60057F898 /* BCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF30F6238D44A60057F898 /* BCircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		8ADF30ED238D431E0057F898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8ADF30F0238D431E0057F898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ADF30F2238D431E0057F898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADF30F6238D44A60057F898 /* BCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8ADF30C7238D42B80057F898 /* BCircleImageView.h */,
 				8ADF30C8238D42B80057F898 /* Info.plist */,
+				8ADF30F6238D44A60057F898 /* BCircleImageView.swift */,
 			);
 			path = BCircleImageView;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				TargetAttributes = {
 					8ADF30C3238D42B80057F898 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					8ADF30CC238D42B80057F898 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -271,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADF30F7238D44A60057F898 /* BCircleImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +442,7 @@
 		8ADF30D9238D42B80057F898 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4XXKADE3D4;
@@ -453,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Beram.BCircleImageView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		8ADF30DA238D42B80057F898 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4XXKADE3D4;
@@ -485,6 +493,7 @@
 		8ADF30DC238D42B80057F898 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XXKADE3D4;
 				INFOPLIST_FILE = BCircleImageViewTests/Info.plist;
@@ -503,6 +512,7 @@
 		8ADF30DD238D42B80057F898 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XXKADE3D4;
 				INFOPLIST_FILE = BCircleImageViewTests/Info.plist;

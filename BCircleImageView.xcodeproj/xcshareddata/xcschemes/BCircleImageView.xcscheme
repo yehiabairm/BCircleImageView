@@ -26,7 +26,32 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8ADF30C3238D42B80057F898"
+            BuildableName = "BCircleImageView.framework"
+            BlueprintName = "BCircleImageView"
+            ReferencedContainer = "container:BCircleImageView.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8ADF30E1238D431C0057F898"
+            BuildableName = "BCircleImageViewExamples.app"
+            BlueprintName = "BCircleImageViewExamples"
+            ReferencedContainer = "container:BCircleImageView.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8ADF30CC238D42B80057F898"
+            BuildableName = "BCircleImageViewTests.xctest"
+            BlueprintName = "BCircleImageViewTests"
+            ReferencedContainer = "container:BCircleImageView.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
