@@ -7,4 +7,4 @@ xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone 11
 script:
   - xcodebuild -scheme BCircleImageView -workspace BCircleImageView.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.2.2' build test
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -t {a097ae69-8a07-4d31-8e62-48711480a4da}
