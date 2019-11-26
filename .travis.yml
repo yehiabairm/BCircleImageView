@@ -4,3 +4,7 @@ osx_image: xcode11.2
 xcode_project: BCircleImageView.xcodeproj # path to your xcodeproj folder
 xcode_scheme: BCircleImageView
 xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone 11
+script:
+  - xcodebuild -scheme BCircleImageView -workspace BCircleImageView.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.2.2' build test
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
