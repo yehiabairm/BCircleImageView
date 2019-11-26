@@ -1,10 +1,6 @@
-language: objective-c
+language: swift
 
-osx_image: xcode10.1
-env:
-  matrix:
-    - TEST_SDK=iphonesimulator13.2 OS=13.2.2 NAME='iPhone 11'
-    - TEST_SDK=iphonesimulator13.2 OS=13.2.2 NAME='iPhone 8'
-
-script:
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project BCircleImageView.xcodeproj -scheme BCircleImageView -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+osx_image: xcode11.2
+xcode_project: BCircleImageView.xcodeproj # path to your xcodeproj folder
+xcode_scheme: BCircleImageViewTests
+xcode_destination: platform=iOS Simulator,OS=13.2,name=iPhone 11
