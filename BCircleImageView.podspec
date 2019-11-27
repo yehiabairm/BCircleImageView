@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/yehiabairm/BCircleImageView"
-  spec.screenshots  = "https://www.dropbox.com/s/f2nmjy3i6q6su55/Screen%20Shot%202019-11-27%20at%202.03.38%20PM.png"
+  spec.screenshots  = "https://firebasestorage.googleapis.com/v0/b/caruosal.appspot.com/o/Screen%20Shot%202019-11-27%20at%202.03.38%20PM.png?alt=media&token=719c334e-5817-4b00-8445-c605735b27a5"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

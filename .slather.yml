@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: BCircleImageView.xcodeproj
+scheme: BCircleImageView
+output_directory: reports
+ignore:
+  - BCircleImageViewTests/*
