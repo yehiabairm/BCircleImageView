@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A27FD41238E923100958C7A /* BCircleImageViewExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27FD40238E923100958C7A /* BCircleImageViewExamplesUITests.swift */; };
 		8ADF30CE238D42B80057F898 /* BCircleImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADF30C4238D42B80057F898 /* BCircleImageView.framework */; };
 		8ADF30D3238D42B80057F898 /* BCircleImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF30D2238D42B80057F898 /* BCircleImageViewTests.swift */; };
 		8ADF30D5238D42B80057F898 /* BCircleImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADF30C7238D42B80057F898 /* BCircleImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8A27FD43238E923100958C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ADF30BB238D42B80057F898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ADF30E1238D431C0057F898;
+			remoteInfo = BCircleImageViewExamples;
+		};
 		8ADF30CF238D42B80057F898 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8ADF30BB238D42B80057F898 /* Project object */;
@@ -30,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A27FD3E238E923100958C7A /* BCircleImageViewExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCircleImageViewExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A27FD40238E923100958C7A /* BCircleImageViewExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCircleImageViewExamplesUITests.swift; sourceTree = "<group>"; };
+		8A27FD42238E923100958C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ADF30C4238D42B80057F898 /* BCircleImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCircleImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADF30C7238D42B80057F898 /* BCircleImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCircleImageView.h; sourceTree = "<group>"; };
 		8ADF30C8238D42B80057F898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +59,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A27FD3B238E923100958C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8ADF30C1238D42B80057F898 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,12 +91,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A27FD3F238E923100958C7A /* BCircleImageViewExamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A27FD40238E923100958C7A /* BCircleImageViewExamplesUITests.swift */,
+				8A27FD42238E923100958C7A /* Info.plist */,
+			);
+			path = BCircleImageViewExamplesUITests;
+			sourceTree = "<group>";
+		};
 		8ADF30BA238D42B80057F898 = {
 			isa = PBXGroup;
 			children = (
 				8ADF30C6238D42B80057F898 /* BCircleImageView */,
 				8ADF30D1238D42B80057F898 /* BCircleImageViewTests */,
 				8ADF30E3238D431C0057F898 /* BCircleImageViewExamples */,
+				8A27FD3F238E923100958C7A /* BCircleImageViewExamplesUITests */,
 				8ADF30C5238D42B80057F898 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +117,7 @@
 				8ADF30C4238D42B80057F898 /* BCircleImageView.framework */,
 				8ADF30CD238D42B80057F898 /* BCircleImageViewTests.xctest */,
 				8ADF30E2238D431C0057F898 /* BCircleImageViewExamples.app */,
+				8A27FD3E238E923100958C7A /* BCircleImageViewExamplesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +177,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8A27FD3D238E923100958C7A /* BCircleImageViewExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A27FD47238E923100958C7A /* Build configuration list for PBXNativeTarget "BCircleImageViewExamplesUITests" */;
+			buildPhases = (
+				8A27FD3A238E923100958C7A /* Sources */,
+				8A27FD3B238E923100958C7A /* Frameworks */,
+				8A27FD3C238E923100958C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A27FD44238E923100958C7A /* PBXTargetDependency */,
+			);
+			name = BCircleImageViewExamplesUITests;
+			productName = BCircleImageViewExamplesUITests;
+			productReference = 8A27FD3E238E923100958C7A /* BCircleImageViewExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		8ADF30C3238D42B80057F898 /* BCircleImageView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ADF30D8238D42B80057F898 /* Build configuration list for PBXNativeTarget "BCircleImageView" */;
@@ -211,6 +258,10 @@
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Yehia Beram";
 				TargetAttributes = {
+					8A27FD3D238E923100958C7A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 8ADF30E1238D431C0057F898;
+					};
 					8ADF30C3238D42B80057F898 = {
 						CreatedOnToolsVersion = 11.2.1;
 						LastSwiftMigration = 1120;
@@ -239,11 +290,19 @@
 				8ADF30C3238D42B80057F898 /* BCircleImageView */,
 				8ADF30CC238D42B80057F898 /* BCircleImageViewTests */,
 				8ADF30E1238D431C0057F898 /* BCircleImageViewExamples */,
+				8A27FD3D238E923100958C7A /* BCircleImageViewExamplesUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A27FD3C238E923100958C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8ADF30C2238D42B80057F898 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +330,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A27FD3A238E923100958C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A27FD41238E923100958C7A /* BCircleImageViewExamplesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8ADF30C0238D42B80057F898 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +367,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8A27FD44238E923100958C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ADF30E1238D431C0057F898 /* BCircleImageViewExamples */;
+			targetProxy = 8A27FD43238E923100958C7A /* PBXContainerItemProxy */;
+		};
 		8ADF30D0238D42B80057F898 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8ADF30C3238D42B80057F898 /* BCircleImageView */;
@@ -319,6 +391,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8A27FD45238E923100958C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XXKADE3D4;
+				INFOPLIST_FILE = BCircleImageViewExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beram.BCircleImageViewExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BCircleImageViewExamples;
+			};
+			name = Debug;
+		};
+		8A27FD46238E923100958C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XXKADE3D4;
+				INFOPLIST_FILE = BCircleImageViewExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beram.BCircleImageViewExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BCircleImageViewExamples;
+			};
+			name = Release;
+		};
 		8ADF30D6238D42B80057F898 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -571,6 +681,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A27FD47238E923100958C7A /* Build configuration list for PBXNativeTarget "BCircleImageViewExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A27FD45238E923100958C7A /* Debug */,
+				8A27FD46238E923100958C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8ADF30BE238D42B80057F898 /* Build configuration list for PBXProject "BCircleImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

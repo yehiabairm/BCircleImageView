@@ -7,22 +7,34 @@
 //
 
 import XCTest
+import UIKit
 @testable import BCircleImageView
 
 class BCircleImageViewTests: XCTestCase {
     
-    var swiftyLib: BCircleImageView!
+    var circleImageView: BCircleImageView!
 
     override func setUp() {
-        swiftyLib = BCircleImageView()
-    }
-
-    func testAdd() {
-        XCTAssertEqual(swiftyLib.add(a: 1, b: 1), 2)
+        circleImageView = BCircleImageView()
     }
     
-    func testSub() {
-        XCTAssertEqual(swiftyLib.sub(a: 2, b: 1), 1)
+    func testCornerRadius() {
+        circleImageView.cornerRadius = 5
+        XCTAssertEqual(circleImageView.cornerRadius, 5)
+    }
+    
+    func testBorderWidth() {
+        circleImageView.borderWidth = 5
+        XCTAssertEqual(circleImageView.borderWidth, 5)
+    }
+    
+    func testBorderColor() {
+        circleImageView.borderColor = UIColor.gray
+        XCTAssertEqual(circleImageView.borderColor, .gray)
+    }
+    
+    func testLayoutSubViews() {
+        XCTAssertNotNil(circleImageView.layoutSubviews())
     }
 
 }
