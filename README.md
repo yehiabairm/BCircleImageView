@@ -6,7 +6,7 @@
 # BCircleImageView
 
 BCircleImageView is an iOS Swift library for creating a circular image view with a border.
-<img width="622" alt="Screen Shot 2019-11-27 at 2.03.38 PM" src="https://github.com/yehiabairm/BCircleImageView/blob/master/Screen%20Shot%202019-11-27%20at%202.03.38%20PM.png?raw=true">
+<img width="311" alt="Screen Shot 2019-11-27 at 2.03.38 PM" src="https://github.com/yehiabairm/BCircleImageView/blob/master/Screen%20Shot%202019-11-27%20at%202.03.38%20PM.png?raw=true">
 
 ## Installation
 
